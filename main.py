@@ -15,6 +15,8 @@ from haystack.nodes import BM25Retriever
 #document_store = ElasticsearchDocumentStore(host="localhost", username="", password="", index="document")
 document_store = ElasticsearchDocumentStore(return_embedding=True)
 
+#/bin/sh: 1: docker: not found
 
+#2022-09-12 16:26:23.899 Tried to start Elasticsearch through Docker but this failed. It is likely that there is already an existing Elasticsearch instance running. 
 
 st.write("it's working!")
